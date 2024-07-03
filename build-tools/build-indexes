@@ -947,7 +947,7 @@ process.stdout.write("Building `data/teambuilder-tables.js`... ");
 	}
 	const UniversalLearnsets = Dex.mod('gen9universal').data.Learnsets;
 	for (const id in UniversalLearnsets) {
-		const species = Dex.mod('gen9vuniersal').species.get(id);
+		const species = Dex.mod('gen9universal').species.get(id);
 		if (species.isNonstandard && !['Unobtainable', 'CAP'].includes(species.isNonstandard)) continue;
 		const learnset = UniversalLearnsets[id].learnset;
 		BattleTeambuilderTable['gen9vuniersal'].learnsets[id] = {};

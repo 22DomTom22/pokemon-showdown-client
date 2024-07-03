@@ -615,7 +615,7 @@ abstract class BattleTypedSearch<T extends SearchType> {
 			format = format.slice(7) as ID;
 			if (!format) format = 'ou' as ID;
 		}
-		if (format.startsWith('universal')) {
+		if (format.includes('universal')) {
 			this.dex = Dex.mod('gen9universal' as ID);	
 			this.formatType = 'universal';
 		}

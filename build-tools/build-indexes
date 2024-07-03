@@ -529,6 +529,7 @@ process.stdout.write("Building `data/teambuilder-tables.js`... ");
 			BattleTeambuilderTable['gen9universal'] = {};
 			BattleTeambuilderTable['gen9universal'].learnsets = {};
 			BattleTeambuilderTable['gen9universal'].tiers = tiers;
+			BattleTeambuilderTable['gen9universal'].items = items;
 			BattleTeambuilderTable['gen9universal'].overrideTier = overrideTier;
 			BattleTeambuilderTable['gen9universal'].formatSlices = formatSlices;
 		} else if (isBDSP && !isDoubles) {

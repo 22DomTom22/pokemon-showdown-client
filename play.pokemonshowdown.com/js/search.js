@@ -249,7 +249,7 @@
 				nubl: "NUBL",
 				aubl: "AUBL",
 				publ: "PUBL",
-				zubl: "ZUBL"
+				zubl: "ZUBL",
 				fubl: "FUBL",
 			};
 			var tier = {name: tierTable[id]};

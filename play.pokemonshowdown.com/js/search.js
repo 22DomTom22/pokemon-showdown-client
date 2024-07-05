@@ -232,12 +232,9 @@
 				ou: "OU",
 				uu: "UU",
 				ru: "RU",
-				hu: "HU",
 				nu: "NU",
-				au: "AU",
 				pu: "PU",
 				zu: "ZU",
-				fu: "FU",
 				nfe: "NFE",
 				lc: "LC",
 				cap: "CAP",
@@ -245,12 +242,9 @@
 				capnfe: "CAP NFE",
 				uubl: "UUBL",
 				rubl: "RUBL",
-				hubl: "HUBL",
 				nubl: "NUBL",
-				aubl: "AUBL",
 				publ: "PUBL",
 				zubl: "ZUBL"
-				fubl: "FUBL",
 			};
 			var tier = {name: tierTable[id]};
 			return this.renderTierRow(tier, matchStart, matchLength, errorMessage);
